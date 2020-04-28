@@ -1,0 +1,106 @@
+*{margin: 0;padding: 0}
+body{background-color: #ecf0f1;font-family: 'Open Sans', sans-serif;}
+p{font-size: 13px;font-weight: normal;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+header{background-color: #3498db;width: 100%;padding: 2px;position: fixed;top: 0;z-index: 1}
+.container{overflow: hidden;margin: auto;width: 1200px;}
+header .container .headerLeft{float: left;width: 600px;}
+header .container .headerLeft .gambar{float: left;width: 100px}
+header .container .headerLeft .gambar img{width: 90px;margin-top: 10px;}
+header .container .headerLeft .item{float: right;width: 480px}
+header .container .headerLeft .item ul{list-style: none;}
+header .container .headerLeft .item ul li a{color: #fff;text-decoration: none;float: left;padding: 0 10px;display: block;line-height: 45px;}
+header .container .headerLeft .item ul li a:hover{color: #f1c40f;-webkit-transition: color 2s ease;
+-moz-transition: color 2s ease;
+-ms-transition: color 2s ease;
+-o-transition: color 2s ease;
+transition: color 2s ease;}
+header .container .headerRight{float: right;width: 300px;overflow: hidden;}
+header .container .headerRight .search{float: left;width: 200px;}
+header .container .headerRight .search input[type=text]{padding: 8px;margin-right: 10px;margin-top: 9px;border-radius: 5px;border:0;}
+header .container .headerRight .gambar{float: right;width: 100px}
+header .container .headerRight .gambar img{width: 50px;width: 45px;margin-left: 20px;border-radius: 20px}
+
+article .middleLeft{float: left; width:280px;margin-top: 75px}
+article .middleLeft .profile{width: 280px;border:1px solid #3498db;text-align: center;background: #fff;border-radius: 5px;}
+article .middleLeft .profile img{width: 280px;}
+article .middleLeft .profile .profileFile{margin-top: -60px;margin-bottom: 10px}
+article .middleLeft .profile .profileFile img{width: 100px;border-radius: 80px;}
+article .middleLeft .profile .profileFile h2{font-size: 15px;margin-bottom: 5px}
+article .middleLeft .profile .profileFile .profileItem{overflow: hidden;margin-top: 25px}
+article .middleLeft .profile .profileFile .profileItem .itemLeft{float: left;width: 130px;border-right: 1px solid #000;background: #fff;}
+article .middleLeft .profile .profileFile .profileItem .itemRight{float: right;width: 140px;}
+article .middleLeft .about{width: 280px;margin-top: 25px; border:1px solid #3498db;background: #fff; border-radius: 5px}
+article .middleLeft .about h1{font-size: 15px;padding: 13px}
+article .middleLeft .odd{position: relative;top: -35px; left: 65px;font-size: 10px}
+article .middleLeft .about .list{margin-top: -20px;overflow: hidden;margin-left: 15px;margin-bottom: 30px}
+article .middleLeft .about .list img{float: left; width: 20px;}
+article .middleLeft .about .list .listItem{float: right;width: 220px;}
+article .middleLeft .photo{width: 280px;margin-top: 25px; border:1px solid #3498db;background: #fff; border-radius: 5px}
+article .middleLeft .photo h1{font-size: 15px;padding: 13px}
+article .middleLeft .photo .foto{margin-left: 4px; margin-top: -20px}
+article .middleLeft .photo .foto img{width: 125px;margin: 0 4px 4px}
+article .middleLeft .middle1{width: 600px;background: #fff;border:1px solid #3498db;margin-left: 40px;}
+article .middleLeft .middle1 .message{ margin: 10px 20px;margin-bottom: 10px;}
+article .middleLeft .middle1 .message input[type=text]{padding: 10px;width: 500px;border-radius: 5px;border:0;}
+article .middleLeft .middle1 .message img{cursor: pointer;border:1px solid #ecf0f1;background: #ecf0f1;position: relative;top: 8px;left: -4px;}
+article .middleLeft .content{width: 600px;border:1px solid #3498db;overflow: hidden;margin-left: 40px;background: #fff}
+article .middleLeft .content .contentLeft{float: left; width: 100px;}
+article .middleLeft .content .contentLeft img{width: 60px;border-radius: 50px;margin: 20px 20px 0; }
+article .middleLeft .content .contentRight{float: right;width: 500px}
+article .middleLeft .content .contentRight h1{font-size: 15px;margin-top: 20px}
+article .middleLeft .content .contentRight h6{position: relative;top: 39px; left: 437px}
+article .middleLeft .content .contentRight img{width:220px;margin: 5px 5px;}
+article .middleLeft .content .contentRight p{margin-bottom: 15px}
+article .middleLeft .content .contentRight .kom{overflow: hidden;margin-top: 20px}
+article .middleLeft .content .contentRight .komLeft{float: left; width: 100px;}
+article .middleLeft .content .contentRight .komRight{width: 400px;margin-top: -13px}
+article .middleLeft .content .contentRight .komLeft img{width: 50px;border-radius: 50px;margin-bottom: 37px}
+article .middleLeft .content .contentRight .komRight h1{font-size: 13px;}
+article .middleLeft .content .contentRight .komRight h1 span{font-weight: normal;}
+article .middleRight{float: right;width: 240px;margin-top: 75px;}
+article .middleRight .visit{background: #ffffcc;padding: 17px;margin-bottom: 10px;border:1px solid #000;border-radius: 5px}
+article .middleRight .visit h1{font-size: 13px}
+article .middleRight .visit h1 span{font-weight: normal;}
+article .middleRight .iklan{background: #fff;margin-bottom: 10px;border:1px solid #3498db;border-radius: 5px;padding: 13px}
+article .middleRight .iklan h1{font-size: 15px; margin-bottom: 10px}
+article .middleRight .iklan h2{;font-size: 13px;margin-bottom: 10px}
+article .middleRight .iklan img{width: 210px;margin-bottom: 10px}
+article .middleRight .iklan p{font-size: 12px}
+article .middleRight .iklan a{background: #fff;border:1px solid #3498db;display: inline-block;border-radius: 5px;margin-bottom: 20px;margin-top: 10px;text-decoration: none;color: #3498db;padding: 5px;font-size: 12px}
+article .middleRight .iklan a:hover{background: #bdc3c7;-webkit-transition: background 2s ease-out;
+-moz-transition: background 2s ease-out;
+-ms-transition: background 2s ease-out;
+-o-transition: background 2s ease-out;
+transition: background 2s ease-out;}
+article .middleRight .odd{color: #3498db;font-size: 12px;position: relative;top: -41px;left: -10px}
+article .middleRight .like{background: #fff;border:1px solid #3498db;padding: 20px;width: 240px;overflow: hidden;}
+article .middleRight .like h1{font-size: 15px;margin-bottom: 20px}
+article .middleRight .like .likes {float: left;width: 50px;margin-bottom: 20px}
+article .middleRight .like .likes img{width: 50px;border-radius: 50px;}
+article .middleRight .like .likeLeft{float: right; width: 170px;margin-bottom: 20px}
+article .middleRight .like .likeLeft img{width: 45px; border-radius: 50px}
+article .middleRight .like .likeLeft h2{font-size: 12px;margin-bottom: 5px;margin-top: -5px}
+article .middleRight .like .likeLeft h2 span{font-weight: normal;}
+article .middleRight .like .likeLeft a{background: #fff; padding: 5px;border:1px solid #333;font-size: 12px;display: inline-block;color: #3498db;text-decoration: none;}
+article .middleRight .like .likeLeft a:hover{background: #333;}
+article .middleRight .like .likeLeft a img{width: 10px}  
+
+article .middleRight .write{border-left:1px solid #3498db;border-right:1px solid #3498db;border-bottom:1px solid #3498db;padding: 10px}
+article .middleRight footer{border:1px solid #3498db;margin-top: 10px;border-radius: 5px;padding: 10px;overflow: hidden;}
+article .middleRight footer  span ul{list-style: none;}
+article .middleRight footer span ul li a{color: #3498db; float: left;padding: 0 5px;font-size: 13px;line-height: 20px}
+article .middleRight footer span ul li a:hover{text-decoration: underline;}
+article .middleRight footer span{font-size: 13px}
+
+.container2{margin: auto;width: 300px}
+.slider{text-align: center;overflow: hidden;background: url(../images/instagram_9.jpg); width: 100%;height: 100%;background-size: cover;}
+.slider img{width: 150px;border-radius: 100px; margin-bottom: 20px;margin-top: 200px}
+.slider h1{color: #fff;font-size: 20px}
+.slider p{color: #fff;font-size: 14px}
+.slider .link{text-align: center;}
+.slider .link ul{list-style: none;margin-top: 190px}
+.slider .link ul li{float: left;color: #fff;padding: 10px;}
+.gallery {margin: auto;width: 1000px;margin-top: 30px}
+.gallery img{width: 300px}

@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+body{background: #ecf0f1;font-family: 'Roboto', sans-serif;}
+article{margin-top: 130px;text-align: center;}
+article h1{font-family: 'Dancing Script', cursive;font-size: 30px;font-weight: bold;color: #3498db;margin-top: -10}
+article h4{font-family: 'Dancing Script', cursive;font-size: 22px;color: #3498db;margin-bottom: 10px}
+article table{margin: auto;}
+article input[type=text]{text-align: center;border-radius: 5px;border:0;padding: 10px;width: 250px;margin-bottom: 10px;margin-right: 70px}
+article input[type=email]{text-align: center;border-radius: 5px;border:0;padding: 10px;width: 250px;margin-bottom: 10px;position: relative;left: -271px}
+article textarea{padding: 10px;width: 600px;margin-left: 280px;margin-bottom: 5px;border:0;}
+article input[type=submit]{padding: 10px;background:#3498db;border:0;border-radius: 5px;cursor: pointer;margin-left: 820px;font-size: 15px;font-weight: bold;box-shadow: 5px 5px 3px #333;margin-bottom: 10px}
+
+footer{overflow: hidden;height: 40px;line-height: 40px ;background: #2c3e50;position: relative;bottom: 0px;width: 100%}
+footer .footerLeft{float: left;width: 600px}
+footer .footerLeft img{width: 150px;}
+footer .footerRight{float: right;width: 400px}
+footer .footerRight p{color: #f1c40f}
+footer .footerRight p a{color: #fff;text-decoration: none;}
+footer .footerRight p a:hover{color:#f1c40f;-webkit-transition: color 2s ease;
+-moz-transition: color 2s ease;
+-ms-transition: color 2s ease;
+-o-transition: color 2s ease;
+transition: color 2s ease;text-decoration: underline;}
